@@ -9,13 +9,10 @@ export default function Footer() {
             <div className="contact">
                 <h3>Connect With Me</h3>
                 <ul>
-
-                    <li><a href="https://github.com/wescbro12"><FaGithub /></a></li>
-                    <li><a href="https://twitter.com/wesbrodev"><FaTwitterSquare /></a></li>
-                    <li><a href="www.linkedin.com/in/wesleybrown12/"><FaLinkedinIn /></a></li>
-                    <li><a href="mailtoLwesbrodev@gmail.com"><FaEnvelope /></a></li>
-
-
+                    <li><a href="https://github.com/wescbro12" target="blank"><FaGithub /></a></li>
+                    <li><a href="https://twitter.com/wesbrodev" target="blank"><FaTwitterSquare /></a></li>
+                    <li><a href="www.linkedin.com/in/wesleybrown12/" target="blank"><FaLinkedinIn /></a></li>
+                    <li><a href="mailtoLwesbrodev@gmail.com" target="blank"><FaEnvelope /></a></li>
                 </ul>
             </div>
         </div>
