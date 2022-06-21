@@ -1,10 +1,13 @@
+html {
+  background-image: linear-gradient(black, gray);
+}
+
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: rgb(106, 11, 195)
 }
 
 code {
@@ -23,4 +26,51 @@ ul {
 
 li {
   display: inline;
+  text-decoration: none;
+
+}
+
+a {
+  color: aqua;
+}
+
+.Projects {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card {
+  background-image: linear-gradient(gray, black);
+  box-shadow: 0 4px 8px 0 green;
+  width: 350px;
+  height: 425px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 blue;
+}
+
+.container {
+  align-items: center;
+  align-content: center;
+  padding: 2px 16px
+}
+
+.image {
+  width: 350px;
+  height: 250px
+}
+
+#wbd {
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+.Footer {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 10px; */
 }
